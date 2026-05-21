@@ -15,8 +15,10 @@ jobs:
     strategy:
       matrix:
         dockerfile:
-          - path: ./hermes/Dockerfile
-            context: hermes 
+          # - path: ./hermes/Dockerfile
+          #   context: hermes 
+         - path: ./zeroclaw/Dockerfile
+           context: zeroclaw
 #          - path: ./picoclaw/Dockerfile
 #            context: picoclaw
 
